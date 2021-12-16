@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable
+            name="data"
+            type="com.library.kotlinlmscustomertry.login.LoginActivity" />
+    </data>
+    <androidx.core.widget.NestedScrollView
+        style="@style/rr_fullMatch"
+        android:background="@color/white">
+
+        <RelativeLayout
+            style="@style/rr_fullMatch"
+            android:background="@color/colorAccent">
+            <RelativeLayout
+                style="@style/rr_fullMatch"
+                android:background="@color/colorAccent">
+
+                <LinearLayout
+                    style="@style/ll_vertical_fullMatch">
+                    <LinearLayout
+                        style="@style/ll_vertical_height0dp_weight"
+                        android:layout_width="match_parent"
+                        android:layout_weight="0.5"
+                        android:layout_gravity="center"
+                        android:layout_margin="@dimen/_15sdp"
+                        android:gravity="center">
+                        <ImageView
+                            style="@style/rr_fullwrap"
+                            android:src="@drawable/ic_logintop" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        style="@style/ll_vertical_height0dp_weight"
+                        android:layout_weight="1."
+                        android:background="@color/colorAccent">
+
+                        <LinearLayout
+                            style="@style/ll_vertical_fullMatch"
+                            android:background="@drawable/topcornercurve"
+                            android:layout_gravity="center">
+                            <TextView
+                                style="@style/primarytextmedium_14"
+                                android:textColor="@color/textpink"
+                                android:layout_marginTop="@dimen/_10sdp"
+                                android:text="@string/login"
+                                android:layout_gravity="center" />
+                            <LinearLayout
+                                style="@style/ll_horzont_heightwrap"
+                                android:layout_marginStart="@dimen/_15sdp"
+                                android:layout_marginEnd="@dimen/_15sdp"
+                                android:layout_marginTop="@dimen/_25sdp">
+
+                                <ImageView
+                                    style="@style/rr_fullwrap"
+                                    android:layout_gravity="bottom"
+                                    android:layout_marginBottom="@dimen/_5sdp"
+                                    android:src="@drawable/userbg"/>
+
+                                <com.google.android.material.textfield.TextInputLayout
+                                    style="@style/edt_signup12">
+
+                                    <EditText
+                                        style="@style/edt_pass12"
+                                        android:id="@+id/edt_memberid"
+                                        android:hint="@string/memberid"
+                                        android:maxLength="100"
+                                        android:inputType="text"
+                                        android:gravity="center_vertical"
+                                        android:digits="qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM1234567890_."/>
+
+                                </com.google.android.material.textfield.TextInputLayout>
+
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                style="@style/ll_horzont_heightwrap"
+                                android:layout_marginStart="@dimen/_15sdp"
+                                android:layout_marginEnd="@dimen/_15sdp"
+                                android:layout_marginTop="@dimen/_5sdp">
+
+                                <ImageView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="bottom"
+                                    android:layout_marginBottom="@dimen/_5sdp"
+                                    android:src="@drawable/ic_lock"/>
+                                <com.google.android.material.textfield.TextInputLayout
+                                    style="@style/edt_toggle">
+
+                                    <EditText
+                                        style="@style/edt_pass12"
+                                        android:id="@+id/edt_pin"
+                                        android:maxLength="4"
+                                        android:hint="@string/enterpin"
+                                        android:inputType="textPassword" />
+
+                                </com.google.android.material.textfield.TextInputLayout>
+
+                            </LinearLayout>
+
+                            <TextView
+                                android:id="@+id/tvforget"
+                                style="@style/primarytextmedium_14"
+                                android:textSize="@dimen/_12sdp"
+                                android:layout_height="wrap_content"
+                                android:gravity="end"
+                                android:layout_gravity="end"
+                                android:layout_marginTop="@dimen/_5sdp"
+                                android:layout_marginEnd="@dimen/_35sdp"
+                                android:text="@string/forget"
+                                android:textColor="@color/textgraydrak"/>
+
+                            <Button
+                                style="@style/btn_1"
+                                android:id="@+id/btn_login"
+                                android:layout_marginTop="@dimen/_5sdp"
+                                android:layout_marginBottom="@dimen/_10sdp"
+                                android:layout_marginStart="@dimen/_50sdp"
+                                android:layout_marginEnd="@dimen/_50sdp"
+                                android:text="@string/login"
+                                android:textAllCaps="false"
+                                android:layout_gravity="center"
+                                android:gravity="center"/>
+
+
+                            <RelativeLayout
+                                android:id="@+id/rrsignupwith"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="@dimen/_5sdp">
+                                <View
+                                    android:layout_centerVertical="true"
+                                    android:layout_toEndOf="@+id/tvcenter"
+                                    android:layout_width="match_parent"
+                                    android:layout_marginEnd="@dimen/_55sdp"
+                                    android:layout_marginStart="@dimen/_5sdp"
+                                    android:layout_height="@dimen/_3sdp"
+                                    android:background="@drawable/linearredius"/>
+                                <TextView
+                                    android:id="@+id/tvcenter"
+                                    style="@style/rr_fullwrap"
+                                    android:layout_centerHorizontal="true"
+                                    android:text="@string/or"
+                                    android:layout_margin="@dimen/_5sdp"
+                                    android:textColor="@color/textpink"
+                                    android:textSize="@dimen/_12sdp"/>
+                                <View
+                                    android:layout_centerVertical="true"
+                                    android:layout_toStartOf="@+id/tvcenter"
+                                    android:layout_marginEnd="@dimen/_5sdp"
+                                    android:layout_marginStart="@dimen/_55sdp"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="@dimen/_3sdp"
+                                    android:background="@drawable/linearrediusreverse"/>
+                            </RelativeLayout>
+                            <TextView
+                                style="@style/primarytextmedium_14"
+                                android:textSize="@dimen/_12sdp"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="@dimen/_5sdp"
+                                android:text="@string/donthaveanacctount"
+                                android:textColor="@color/textgraydrak"/>
+                            <TextView
+                                android:id="@+id/tvsignup"
+                                style="@style/primarytextmedium_14"
+                                android:textSize="@dimen/_12sdp"
+                                android:textColor="@color/textpink"
+                                android:layout_marginTop="@dimen/_10sdp"
+                                android:layout_marginBottom="@dimen/_5sdp"
+                                android:text="@string/signup"
+                                android:layout_gravity="center" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+
+    </androidx.core.widget.NestedScrollView>
+</layout>

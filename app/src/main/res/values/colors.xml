@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="bgwhite">#F5F5F5</color>
+
+    <color name="litepink">#ffadd6</color>
+    <color name="pinkd">#ff94c9</color>
+    <color name="colorPrimary">#F43E88</color>
+    <color name="colorPrimaryDark">#F54981</color>
+    <color name="colorAccent">#F96771</color>
+    <color name="bgcheckoutwhite">#F1F1F1</color>
+    <color name="edt_hint_color">#606060</color>
+    <color name="edt_text_color">#323232</color>
+    <color name="order_text">#9E9D9D</color>
+
+
+    <color name="textgrey">#1D1D1F</color>
+    <color name="textpink">#F43F87</color>
+    <color name="textlitedarkpink">#F43E87</color>
+    <color name="textgraydrak">#6D6D6D</color>
+    <color name="graylite">#EDEDED</color>
+    <color name="stokestart">#F44087</color>
+    <color name="graybg">#DFDCDC</color>
+    <color name="graybgdarkbottom">#726C75</color>
+    <color name="stokebg">#969393</color>
+    <color name="subgreen">#01BF53</color>
+    <color name="textdarkblack">#1D1D1F</color>
+    <color name="innercurvecolor">#f5e1e9</color>
+
+    <color name="skyblue">#71c5e7</color>
+    <color name="navyblue">#000080</color>
+    <color name="violet">#6859CB</color>
+    <color name="limegreen">#3CB371</color>
+    <color name="grey">#444444</color>
+    <color name="greyLite">#808080</color>
+    <color name="textauthorcolor">#1D1D1F</color>
+    <color name="Black">#000000</color>
+    <color name="headblack">#2C2B2B</color>
+    <color name="liteBlack">#454545</color>
+    <color name="Gray60">#999999</color>
+    <color name="Gray61">#797979</color>
+    <color name="blacktext">#373435</color>
+    <color name="Gray50">#fafafa</color>
+    <color name="Gray100">#f5f5f5</color>
+    <color name="Gray200">#eeeeee</color>
+    <color name="Gray300">#e0e0e0</color>
+    <color name="Gray400">#bdbdbd</color>
+    <color name="Gray500">#9e9e9e</color>
+    <color name="Gray600">#757575</color>
+    <color name="Gray700">#616161</color>
+    <color name="Gray800">#424242</color>
+    <color name="Gray900">#212121</color>
+    <color name="dtransparent">#30FFFFFF</color>
+    <color name="ctransparent">#00555555</color>
+    <color name="transparent">#00FFFFFF</color>
+
+    <color name="green">#00C853</color>
+    <color name="red">#C70039</color>
+    <color name="orange">#FF893D</color>
+
+    <!--blue-->
+    <color name="blue_50">#e3f2fd</color>
+    <color name="blue_100">#bbdefb</color>
+    <color name="blue_200">#90caf9</color>
+    <color name="blue_300">#64b5f6</color>
+    <color name="blue_400">#42a5f5</color>
+    <color name="blue_500">#2196f3</color>
+    <color name="blue_600">#1e88e5</color>
+    <color name="blue_700">#1976d2</color>
+    <color name="blue_800">#1565c0</color>
+    <color name="blue_900">#0d47a1</color>
+    <color name="blue_a_100">#82b1ff</color>
+    <color name="blue_a_200">#448aff</color>
+    <color name="blue_a_400">#2979ff</color>
+    <color name="blue_a_700">#2962ff</color>
+
+    <!--light blue-->
+    <color name="light_blue_50">#e1f5fe</color>
+    <color name="light_blue_100">#b3e5fc</color>
+    <color name="light_blue_200">#81d4fa</color>
+    <color name="light_blue_300">#4fc3f7</color>
+    <color name="light_blue_400">#29b6f6</color>
+    <color name="light_blue_500">#03a9f4</color>
+    <color name="light_blue_600">#039be5</color>
+    <color name="light_blue_700">#0288d1</color>
+    <color name="light_blue_800">#0277bd</color>
+    <color name="light_blue_900">#01579b</color>
+    <color name="light_blue_a_100">#80d8ff</color>
+    <color name="light_blue_a_200">#40c4ff</color>
+    <color name="light_blue_a_400">#00b0ff</color>
+    <color name="light_blue_a_700">#0091ea</color>
+
+    <!--blue gray-->
+    <color name="blue_grey_50">#eceff1</color>
+    <color name="blue_grey_100">#cfd8dc</color>
+    <color name="blue_grey_200">#b0bec5</color>
+    <color name="blue_grey_300">#90a4ae</color>
+    <color name="blue_grey_400">#78909c</color>
+    <color name="blue_grey_500">#607d8b</color>
+    <color name="blue_grey_600">#546e7a</color>
+    <color name="blue_grey_700">#455a64</color>
+    <color name="blue_grey_800">#37474f</color>
+    <color name="blue_grey_900">#263238</color>
+
+    <!--sender-->
+    <color name="background_bubble_sender">#99E1FFC7</color>
+    <color name="background_bubble_text_sender">@color/black</color>
+    <color name="background_bubble_timestamp_sender">@color/blue_grey_800</color>
+    <color name="color_clickable_link_sender">@color/black</color>
+
+    <!--recipient-->
+    <color name="background_bubble_recipient">@color/white</color>
+    <color name="background_bubble_text_recipient">@color/black</color>
+    <color name="background_bubble_timestamp_recipient">@color/blue_grey_800</color>
+    <color name="color_clickable_link_recipient">@color/black</color>
+
+    <color name="colorTheme">#3f64b1</color>
+    <color name="background">#F2F2F2</color>
+    <color name="textsponsor">#3E3E3E</color>
+
+    <color name="validate">#30FF8A</color>
+    <color name="revalidate">#FFAD33</color>
+    <color name="drop">#FF0000</color>
+
+    <array name="rainbow">
+        <item>@color/Gray200</item>
+        <item>@color/Gray300</item>
+        <item>@color/blue_grey_50</item>
+        <item>@color/blue_grey_100</item>
+        <item>@color/blue_50</item>
+        <item>@color/light_blue_50</item>
+    </array>
+    <!--<array name="rainbow">
+        <item>@color/Gray50</item>
+        <item>@color/blue_grey_100</item>
+        <item>@color/blue_50</item>
+        <item>@color/light_blue_50</item>
+        &lt;!&ndash;<item>@color/blue_100</item>
+        <item>@color/light_blue_100</item>&ndash;&gt;
+    </array>-->
+</resources>
