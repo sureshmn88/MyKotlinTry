@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools">
     <data>
         <variable
-            name="data"
-            type="com.library.kotlinlmscustomertry.login.LoginActivity" />
+            name="loginModel"
+            type="com.library.kotlinlmscustomertry.login.LoginViewModel" />
     </data>
     <androidx.core.widget.NestedScrollView
         style="@style/rr_fullMatch"
@@ -66,6 +66,7 @@
                                         style="@style/edt_pass12"
                                         android:id="@+id/edt_memberid"
                                         android:hint="@string/memberid"
+                                        android:text="@={loginModel.memberIdTxt}"
                                         android:maxLength="100"
                                         android:inputType="text"
                                         android:gravity="center_vertical"
@@ -95,6 +96,7 @@
                                         style="@style/edt_pass12"
                                         android:id="@+id/edt_pin"
                                         android:maxLength="4"
+                                        android:text="@={loginModel.passwordTxt}"
                                         android:hint="@string/enterpin"
                                         android:inputType="textPassword" />
 
@@ -122,6 +124,7 @@
                                 android:layout_marginStart="@dimen/_50sdp"
                                 android:layout_marginEnd="@dimen/_50sdp"
                                 android:text="@string/login"
+                                android:onClick="@{()->loginModel.onLogin()}"
                                 android:textAllCaps="false"
                                 android:layout_gravity="center"
                                 android:gravity="center"/>
